@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import NavBar from "../NavBar";
+import Jumbo from "../Jumbotron"
 
 function Home() {
   return (
@@ -9,11 +10,7 @@ function Home() {
       <Container>
         <Row justify-content-center>
           <Col>
-            <div className="">
-              <div className="my-5 mx-5">
-                <h2>Start tracking your nutritional goals.</h2>
-              </div>
-            </div>
+            <Jumbo />
           </Col>
         </Row>
       </Container>
