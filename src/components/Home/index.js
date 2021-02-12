@@ -7,10 +7,10 @@ function Home() {
   return (
     <div>
       <NavBar />
+      <Jumbo />
       <Container>
         <Row justify-content-center>
           <Col>
-            <Jumbo />
           </Col>
         </Row>
       </Container>
